@@ -1,4 +1,18 @@
-node_modules
-.pnpm
-npm-debug.log
+# dependencies
+node_modules/
+.pnpm/
+
+# dotenv environment files
 .env
+.env.*
+
+# logs
+npm-debug.log*
+
+# build output
+dist/
+build/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
