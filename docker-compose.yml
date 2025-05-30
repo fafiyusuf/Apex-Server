@@ -7,9 +7,9 @@ services:
       - "5000:5000"
     environment:
       - MONGO_URI=mongodb://mongo:27017/express-db
+      - JWT_SECRET=e397a0afd3cab51e0229ece97f4d5435
     depends_on:
       - mongo
-
   mongo:
     image: mongo:6
     ports:
